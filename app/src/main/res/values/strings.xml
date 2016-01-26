@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVPExample</string>
+    <string name="firstname">First name</string>
+    <string name="name">Name</string>
+</resources>
