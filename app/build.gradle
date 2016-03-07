@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "mvp.android.infobosccoma.net.mvpexample"
+        applicationId "net.infobosccoma.prova"
         minSdkVersion 21
         targetSdkVersion 23
         versionCode 1

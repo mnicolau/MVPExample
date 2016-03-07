@@ -1,4 +1,4 @@
-package mvp.android.infobosccoma.net.mvpexample.views.impl.adapters;
+package mvp.android.infobosccoma.net.prova.views.impl.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import mvp.android.infobosccoma.net.mvpexample.R;
-import mvp.android.infobosccoma.net.mvpexample.models.business.entities.Person;
+import mvp.android.infobosccoma.net.prova.models.business.entities.Person;
 
 /**
  * Created by marc on 25/01/2016.
@@ -56,7 +56,7 @@ public class PersonListAdapter extends ArrayAdapter<Person> {
 
     private void setDataIntoHolder(PersonHolder holder, Person person) {
         //Picasso.with(context).load(image.getUrl()).fit().into(holder.image);
-        holder.name.setText(person.getName());
+        holder.name.setText(person.getLastName());
         holder.firstName.setText(person.getFirstName());
     }
 

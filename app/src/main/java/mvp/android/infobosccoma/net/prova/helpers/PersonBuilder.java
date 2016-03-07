@@ -1,9 +1,9 @@
-package mvp.android.infobosccoma.net.mvpexample.helpers;
+package mvp.android.infobosccoma.net.prova.helpers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import mvp.android.infobosccoma.net.mvpexample.models.business.entities.Person;
+import mvp.android.infobosccoma.net.prova.models.business.entities.Person;
 
 /**
  * Created by marc on 25/01/2016.

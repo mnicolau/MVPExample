@@ -1,9 +1,9 @@
-package mvp.android.infobosccoma.net.mvpexample.views.interfaces;
+package mvp.android.infobosccoma.net.prova.views.interfaces;
 
 import java.util.List;
 
-import mvp.android.infobosccoma.net.mvpexample.models.business.entities.Person;
-import mvp.android.infobosccoma.net.mvpexample.views.impl.adapters.PersonListAdapter;
+import mvp.android.infobosccoma.net.prova.models.business.entities.Person;
+import mvp.android.infobosccoma.net.prova.views.impl.adapters.PersonListAdapter;
 
 public interface IMainView {
 

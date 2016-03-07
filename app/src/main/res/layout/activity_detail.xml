@@ -7,12 +7,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="mvp.android.infobosccoma.net.mvpexample.views.impl.activities.DetailActivity">
+    tools:context="mvp.android.infobosccoma.net.prova.views.impl.activities.DetailActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/name"
+        android:text="@string/lastName"
         android:id="@+id/detail_txtview_name"
         style="@style/Base.TextAppearance.AppCompat.Headline" />
 

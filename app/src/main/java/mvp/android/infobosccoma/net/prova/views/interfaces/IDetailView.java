@@ -1,4 +1,4 @@
-package mvp.android.infobosccoma.net.mvpexample.views.interfaces;
+package mvp.android.infobosccoma.net.prova.views.interfaces;
 
 
 public interface IDetailView {

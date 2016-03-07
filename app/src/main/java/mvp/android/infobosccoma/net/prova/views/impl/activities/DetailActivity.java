@@ -1,4 +1,4 @@
-package mvp.android.infobosccoma.net.mvpexample.views.impl.activities;
+package mvp.android.infobosccoma.net.prova.views.impl.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,15 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import org.parceler.Parcels;
 import mvp.android.infobosccoma.net.mvpexample.R;
-import mvp.android.infobosccoma.net.mvpexample.models.business.entities.Person;
-import mvp.android.infobosccoma.net.mvpexample.presenters.impl.DetailViewPresenterImpl;
-import mvp.android.infobosccoma.net.mvpexample.presenters.interfaces.IDetailViewPresenter;
-import mvp.android.infobosccoma.net.mvpexample.views.interfaces.IDetailView;
+import mvp.android.infobosccoma.net.prova.models.business.entities.Person;
+import mvp.android.infobosccoma.net.prova.presenters.impl.DetailViewPresenterImpl;
+import mvp.android.infobosccoma.net.prova.presenters.interfaces.IDetailViewPresenter;
+import mvp.android.infobosccoma.net.prova.views.interfaces.IDetailView;
 
-
-/**
- * Created by juanjo on 14/2/15.
- */
 public class DetailActivity extends AppCompatActivity implements IDetailView {
 
     private TextView txtName;
